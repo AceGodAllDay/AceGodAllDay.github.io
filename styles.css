@@ -1,3 +1,12 @@
+.small-border {
+	max-width: 800px;
+    Margin: 10px auto;
+    Padding: 10px;
+    Background color: green;
+    box-shadow: gray 0px 0px 5px;
+    border-radius: 5px;
+}
+
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
@@ -9,7 +18,7 @@ header {
   position: relative;
   height: 280px;
   color: black;
-  text-align: center;
+  text-align: center; 	
   padding: 20px;
 }
 
@@ -21,7 +30,7 @@ header::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('background4.JPG');
+  background-image: url('background4.jpg');
   background-size: cover;
   background-position: center;
   
@@ -45,7 +54,7 @@ section {
     max-width: 1250px;
     Margin: 10px auto;
     Padding: 10px;
-    Background color: #eee;
+    Background color: green;
     box-shadow: gray 0px 0px 5px;
     border-radius: 5px;
 
@@ -84,18 +93,3 @@ img {
     margin-right: 15px;
     margin-bottom: 10px;
 }
-
-/*h7{
-  text-align: right;
-  margin-left: 750px;
-  margin-bottom: 500px;
-
-}
-*/
-
-div {
-  float: right;
-  margin-bottom: 5px;
-
-}
-
