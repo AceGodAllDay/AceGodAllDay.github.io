@@ -45,7 +45,7 @@ section {
     max-width: 1250px;
     Margin: 10px auto;
     Padding: 10px;
-    Background color: green;
+    Background color: #eee;
     box-shadow: gray 0px 0px 5px;
     border-radius: 5px;
 
@@ -84,3 +84,18 @@ img {
     margin-right: 15px;
     margin-bottom: 10px;
 }
+
+/*h7{
+  text-align: right;
+  margin-left: 750px;
+  margin-bottom: 500px;
+
+}
+*/
+
+div {
+  float: right;
+  margin-bottom: 5px;
+
+}
+
