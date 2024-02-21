@@ -6,31 +6,81 @@ body {
 }
 
 header {
-	background-color: #228B22;
-	color: white;
-	text-align: center;
-	padding: 1em;
+  position: relative;
+  height: 280px;
+  color: black;
+  text-align: center;
+  padding: 20px;
 }
 
+header::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('background4.jpg');
+  background-size: cover;
+  background-position: center;
+  
+  z-index: -1; 
+}
+h5 {
+	text-align: center;
+	font-size: 35px ;
+}
 nav {
 	background-color: #eeeeee;
 	color: white;
 	text-align: center;
 	padding: 1em;
-	margin: 0 10px;
+	margin: 5 10px;
 }
 
 section {
-	padding: 20px;
-	margin: 20px;
+	
+
+    max-width: 1250px;
+    Margin: 10px auto;
+    Padding: 10px;
+    Background color: green;
+    box-shadow: gray 0px 0px 5px;
+    border-radius: 5px;
+
+}
+
+center-iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Optional: Set a specific height for centering vertically */
 }
 
 footer {
 	background-color: #0a0a0a;
 	color: white;
 	text-align: center;
-	padding: 1em;
-	position: fixed;
+	padding: .5em;
 	bottom: 0;
 	width: 100%;
+
+}
+
+
+
+iframe {
+  border: black;
+  margin-left: 215px;
+  width: 1000px;
+  margin-bottom: 50px;
+  height: ;
+
+}
+img {
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
 }
