@@ -1,16 +1,25 @@
 .small-border {
-    max-width: 800px;
+    max-width: 900px;
     Margin: 10px auto;
-    Padding: 10px;
+    Padding: 20px;
     box-shadow: gray 0px 0px 5px;
     border-radius: 5px;
+    border: 2px solid;
 }
 
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	background-color: #dfdfdf;
+	background-color: #818589;
+}
+
+h1 {
+  background-color: white;
+  margin-top: 115px;
+  text-align: center;
+  width: 610px;
+  margin-left: 625px;
 }
 
 header {
@@ -19,6 +28,7 @@ header {
   color: black;
   text-align: center; 	
   padding: 20px;
+
 }
 
 header::after {
@@ -35,25 +45,31 @@ header::after {
   
   z-index: -1; 
 }
-h5 {
-	text-align: center;
-	font-size: 35px ;
-}
+
 nav {
-	background-color: #eeeeee;
+	background-color: #36454F;
 	color: white;
 	text-align: center;
 	padding: 1em;
 	margin: 5 10px;
+  font-size: 20px;
+
 }
-
+/*
+h5 {
+  text-align: center;
+  font-size: 30px;
+}
+*/
+nav a {
+    text-decoration: none; /* Remove the underline */
+    color: #EEEEEE; /* Optional: Set the text color */
+}
 section {
-	
-
     max-width: 1250px;
     Margin: 10px auto;
     Padding: 10px;
-    Background color: green;
+    Background-color: #D3D3D3;
     box-shadow: gray 0px 0px 5px;
     border-radius: 5px;
 
@@ -91,4 +107,256 @@ img {
     margin-top: 10px;
     margin-right: 15px;
     margin-bottom: 10px;
+}
+
+h2 {
+  text-align: left;
+  font-size: 35px ;
+
+}
+
+.form-container {
+    float: right;
+    width: 30%; /* Adjust the width as needed */
+    padding: 00px;
+
+}
+
+
+.form-container h2{
+  margin-top: 0px;
+
+}
+
+
+.form-container form {
+  margin-top: -20px; /* Adjust the margin to move the form up */
+
+}
+
+/* Adjust the margin for better spacing */
+.small-border h2, .small-border p, .small-border h4 {
+  margin-bottom: 25px;
+
+}
+
+
+h4 {
+  text-align: left;
+  font-size: 15px ;
+
+}
+
+h6 {
+  text-align: left;
+  font-size: 15px ;
+
+}
+
+
+.title h1 {
+  font-size: 50px;
+  color: #222;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title p{
+  font-size: 20px;
+  color: #8c8c8c;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.services-section {
+  width: 76%;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  /*background-color: red;*/
+}
+
+.card {
+  width: 97%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 20px;
+  padding: 20px 0px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background-color: #f3f3f3;
+  transition: 0.5s ease;
+}
+
+.card h2 {
+  font-size: 22px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  color: #8c8c8c;
+}
+
+.card1 h2 {
+  background-color: rgba(255, 255, 255, 0.65);
+  font-size: xx-large;
+  font-weight: bold;
+  max-width: 1250px;
+  Margin: 10px auto;
+  Padding: 10px;
+  Background color: green;
+  box-shadow: gray 0px 0px 5px;
+  border-radius: 5px;
+}
+
+.card1 section {
+  background-color: rgba(255, 255, 255, 0.65);
+  font-size: 125%;
+  font-weight: bold;
+}
+
+.button {
+  font-size: 17px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #c78585;
+  padding: 11px 15px;
+  border-radius: 5px;
+  margin-bottom: 6px;
+}
+
+.button:hover {
+  background-color: #7cbfcc;
+  transition: 0.5s ease;
+}
+
+@media screen and (max-width: 940px) {
+  .services-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 85%;
+    display: flex;
+    margin: 20px 0px;
+  }
+}
+
+.services-section h2{
+  background-color: rgba(255, 255, 255, 0.65);
+  font-size: xx-large;
+  font-weight: bold;
+  max-width: 1250px;
+  Margin: 10px auto;
+  Padding: 10px;
+  Background color: green;
+  box-shadow: gray 0px 0px 5px;
+  border-radius: 5px;
+}
+
+.services-section section {
+  background-color: rgba(255, 255, 255, 0.65);
+  font-size: 125%;
+  font-weight: bold;
+}
+
+.card1 {
+  width: 97%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 20px;
+  padding: 20px 0px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-image: url(mowinggrass.jpg);
+}
+
+.card2 {
+  width: 97%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 20px;
+  padding: 20px 0px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-image: url(landscapingdesign.jpg);
+  background-size: 100%;
+}
+
+.card3 {
+  width: 97%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 20px;
+  padding: 20px 0px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-image: url(mulch.jpg);
+  background-size: 110%;
+}
+
+.card4 {
+  width: 97%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 20px;
+  padding: 20px 0px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-image: url(irrigation.jpg);
+  background-size: 100%;
+}
+
+.card5 {
+  width: 97%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 20px;
+  padding: 20px 0px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-image: url(pruning.jpg);
+  background-size: 100%;
+}
+
+.card6 {
+  width: 97%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 20px;
+  padding: 20px 0px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-image: url(fertilization.jpg);
+  background-size: 100%;
+}
+
+.card7 {
+  width: 97%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 20px;
+  padding: 20px 0px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-image: url(rockgravel.jpg);
+  background-size: 100%;
 }
