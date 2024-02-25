@@ -282,6 +282,7 @@ h6 {
   background-color: #fff;
   border-radius: 10px;
   background-image: url(mowinggrass.jpg);
+  background-size: cover;
 }
 
 .card2 {
@@ -294,7 +295,7 @@ h6 {
   background-color: #fff;
   border-radius: 10px;
   background-image: url(landscapingdesign.jpg);
-  background-size: 100%;
+  background-size: cover;
 }
 
 .card3 {
@@ -307,7 +308,7 @@ h6 {
   background-color: #fff;
   border-radius: 10px;
   background-image: url(mulch.jpg);
-  background-size: 110%;
+  background-size: cover;
 }
 
 .card4 {
@@ -320,7 +321,7 @@ h6 {
   background-color: #fff;
   border-radius: 10px;
   background-image: url(irrigation.jpg);
-  background-size: 100%;
+  background-size: cover;
 }
 
 .card5 {
@@ -333,7 +334,7 @@ h6 {
   background-color: #fff;
   border-radius: 10px;
   background-image: url(pruning.jpg);
-  background-size: 100%;
+  background-size: cover;
 }
 
 .card6 {
@@ -346,7 +347,7 @@ h6 {
   background-color: #fff;
   border-radius: 10px;
   background-image: url(fertilization.jpg);
-  background-size: 100%;
+  background-size: cover;
 }
 
 .card7 {
@@ -359,5 +360,5 @@ h6 {
   background-color: #fff;
   border-radius: 10px;
   background-image: url(rockgravel.jpg);
-  background-size: 100%;
+  background-size: cover;
 }
