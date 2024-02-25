@@ -22,30 +22,46 @@
     </nav>
 
     <section>
-        <h2>Frequently Asked Questions</h2>
-        <dl>
-            <dt><u>Question: How often should I mow my lawn?</u></dt>
-            <dd>Answer: The frequency of lawn mowing depends on factors like grass type, season, and weather conditions. In general, mowing once a week during the growing season is recommended.</dd>
-
-            <dt><u>Question: What is landscape design, and why is it important?</u></dt>
-            <dd>Answer: Landscape design involves planning and arranging outdoor spaces for aesthetic and functional purposes. It is important as it enhances the overall appearance of a property, improves usability, and adds value.</dd>
-
-            <dt><u>Question: When is the best time to fertilize my lawn?</u></dt>
-            <dd>Answer: The timing of lawn fertilization depends on the type of fertilizer and your location. In general, early spring and fall are common times for fertilization to promote healthy growth.</dd>
-        </dl>
-
-        <h2>Ask a Question</h2>
-        <form action="forum.html" method="post">
+         <h2>Frequently Asked Questions</h2>
+         <div class="accordion">
+            <div class="accordion-item">
+               <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">How often should I mow my lawn?</span><span class="icon" aria-hidden="true"></span></button>
+               <div class="accordion-content">
+                  <p>In general, mowing once a week during the growing season is recommended. Regular mowing helps maintain a healthy lawn by promoting even growth and preventing the grass from becoming too tall.</p>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">How do you handle emergency services or storm damage?</span><span class="icon" aria-hidden="true"></span></button>
+               <div class="accordion-content">
+                  <p>We understand that emergencies happen. If your landscape suffers storm damage or requires urgent attention, we have a rapid response team to assess and address the situation promptly.</p>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">How do you handle pests and diseases in the landscape?</span><span class="icon" aria-hidden="true"></span></button>
+               <div class="accordion-content">
+                  <p>To combat diseases and pests in an eco-friendly way, we use integrated pest control strategies. To reduce the impact on the ecology, this may involve targeted interventions and organic treatments.</p>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How long does it take?</span><span class="icon" aria-hidden="true"></span></button>
+               <div class="accordion-content">
+                  <p>The duration of our landscaping services depends on the specific type of service being performed.</p>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Home much does it cost?</span><span class="icon" aria-hidden="true"></span></button>
+               <div class="accordion-content">
+                  <p>The cost of our landscaping services can vary based on factors such as the type of service, the size of your property, and specific project requirements. We offer personalized and transparent pricing to meet your unique needs.</p>
+               </div>
+            </div>
+         </div>
+         <h2>Ask a Question</h2>
+         <form action="forum.html" method="post">
             <label for="user-question">Your Question:</label>
             <textarea id="user-question" name="user-question" rows="4" required></textarea>
             <button type="submit">Submit Question</button>
-        </form>
-
-        <h2>Gallery</h2>
-        <div class="photo-gallery">
-            <img src= "FAQ-Image1.webp" >
-        </div>
-    </section>
+         </form>
+      </section>
 
     <footer>
         <p>&copy; 2024 Grading's Landscaping and Lawn Maintenance. All rights reserved.</p>
